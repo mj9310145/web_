@@ -1,0 +1,133 @@
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    color: rgb(49, 48, 47);
+    
+        background-color: rgb(248, 238, 225);
+        padding: 1rem 0;
+   
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.GamjaFlower-font {
+    font-family: 'Gamja Flower', sans-serif;
+}
+p,
+.GamjaFlower-font {
+    font-family: 'Gamja Flower', sans-serif;
+}
+
+/* 네비게이션 영역 */
+.navbar {
+    background-color: #ffd5a5;
+    font-family: 'Orbit', sans-serif;
+}
+.navbar-nav .nav-link {
+    color: #603c21; 
+}
+.navbar-brand {
+    color: #603c21; 
+}
+.nav-link:hover,
+.nav-link.active {
+    color: rgb(255, 134, 113) !important;
+}
+
+
+/* 헤더 영역 */
+header {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(images/main-bg.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+/*image*/
+#bg {
+    text-align: left;
+    font-family: 'Rubik Mono One', monospace;
+    font-size: 100px;
+    padding: 60px;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+
+/* 바깥구경 */
+#outside {
+    background-color: rgb(251, 176, 76);
+    padding: 5rem 0;
+}
+
+
+/* 겨울나기 섹션 */
+
+.card-hover{
+    background-color: white;
+}
+.card-hover:hover {
+    background-color: rgb(255, 134, 113);
+}
+
+
+/* SNS 영역 */
+#sns-links {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(images/sns-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+/* 뉴스 섹션 */
+#news {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(images/news-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* blacktea */
+#blacktea {
+    font-family: 'Rubik Mono One', monospace;
+    background-color: rgb(137, 141, 85);
+    padding: 5rem 0;
+}
+
+/* rooibostea */
+#rooibostea {
+    font-family: 'Rubik Mono One', monospace;
+    background-color: rgb(255, 134, 113); 
+    padding: 5rem 0;
+}
+
+/* remontea */
+#remontea {
+    font-family: 'Rubik Mono One', monospace;
+    background-color: rgb(248, 238, 225); 
+    padding: 5rem 0;
+}
+
+/* pepperminttea */
+#pepperminttea {
+    font-family: 'Rubik Mono One', monospace;
+    background-color: rgb(132,144,200); 
+    padding: 5rem 0;
+}
+
+footer{
+    background-color: rgb(49, 48, 47);
+    padding: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#lead{
+    color: rgb(255, 134, 113)
+}
+
+#interior{
+    margin-top: 100px;
+}

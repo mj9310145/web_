@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(132,144,200);
+    padding: 1rem 0;
+}
+h1, h2, h3, h4, p,
+.GamjaFlower-font {
+    font-family: 'Gamja Flower', sans-serif;
+}
+
+/* 네비게이션 영역 */
+.navbar {
+    background-color: rgb(248, 238, 225);
+    font-family: 'Orbit', sans-serif;
+}
+.navbar-nav .nav-link {
+    color: #603c21; 
+}
+.navbar-brand {
+    color: #603c21; 
+}
+.nav-link:hover,
+.nav-link.active {
+    color: rgb(255, 134, 113) !important;
+}
+
+footer{
+    background-color: rgb(49, 48, 47);
+    padding: 0;
+}
